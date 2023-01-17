@@ -1,0 +1,44 @@
+.products-wrapper {
+  padding: 60px 0px;
+
+  th,
+  td {
+    padding: 16px;
+    vertical-align: middle;
+  }
+}
+
+.product-details {
+  padding: 60px 0px;
+
+  .product-pic {
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .details {
+    .title {
+      font-weight: 600;
+      color: #303030;
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #8d8d8d;
+    }
+
+    .data {
+      font-size: 18px;
+      color: #555555;
+      font-weight: 600;
+      margin-top: 3px;
+      margin-left: 10px;
+
+      .value {
+        font-weight: 400;
+        font-size: 17px;
+      }
+    }
+  }
+}

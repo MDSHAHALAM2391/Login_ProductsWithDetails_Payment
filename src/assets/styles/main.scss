@@ -1,0 +1,15 @@
+.primary-btn {
+  background-color: rgb(49, 132, 221);
+  color: white;
+  font-weight: 600;
+  padding: 10px 22px 11px 22px;
+  border: none;
+  border-radius: 6px;
+}
+
+@import "./login.scss";
+@import "./products.scss";
+
+::placeholder {
+  font-size: 14px;
+}
